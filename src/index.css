@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "stratos";
+  src: local("stratos"), url(./assets/fonts/stratos-semibold.b00ca2148f03da7f28865214a97c568e.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "plex";
+  src: local("plex"), url(./assets/fonts/IBMPlexSans-Regular.dc16f54ea33a9556b9035a9b05e96711.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "plex-bold";
+  src: local("plex-bold"), url(./assets/fonts/IBMPlexSans-Bold.1920d19939b703c6610b0e6c197e3fce.woff2) format("woff2");
+}
